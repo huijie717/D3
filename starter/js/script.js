@@ -4,11 +4,6 @@
 		// City Name
 		var city_name = [ "Beijing" , "Shanghai" , "Shenzhen" , "HK" , "Other"];
 		
-		// City population 
-		//			 Beijing	ShangHai
-		//	Beijing	  1000		    3045
-		//	Shanghai  3214		    2000
-		//
 
 		var sample = [
 		  [ 3000,  1045　 , 504　, 327 , 3714 ],

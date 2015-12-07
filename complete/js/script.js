@@ -4,11 +4,6 @@
 		// City Name
 		var city_name = [ "Beijing" , "Shanghai" , "Shenzhen" , "HK" , "Other"];
 		
-		// City population 
-		//			 Beijing	ShangHai
-		//	Beijing	  1000		    3045
-		//	Shanghai  3214		    2000
-		//
 
 		var sample = [
 		  [ 3000,  1045　 , 504　, 327 , 3714 ],
@@ -18,7 +13,7 @@
 		  [ 1387,  1034　 , 654 , 245  , 7986 ]
 		];  
 
-		//Transform to data  
+		// set layout and transform data  
 		var chord_layout = d3.layout.chord()
 			                 .padding(0.03)		//the gap between element
 			                 .sortSubgroups(d3.descending)	//sort
@@ -77,7 +72,7 @@
 					return d.name;
 				});
 				
-		// draw the inner chords totally 5*5 
+		// draw the inner chords 
 		var inner_chord =  d3.svg.chord()
 						.radius(innerRadius);
 		
